@@ -1,0 +1,6 @@
+services:
+  borgmatic:
+    build: ./src
+    container_name: borgmatic
+    volumes:
+      - :/mnt/backup
